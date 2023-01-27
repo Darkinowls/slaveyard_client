@@ -1,0 +1,44 @@
+{
+    "teacher": [
+        {
+            "field": "firstname",
+            "headerName": "First name",
+            "editable": true,
+            "width": 100
+        },
+        {
+            "field": "lastname",
+            "headerName": "Last name",
+            "editable": true,
+            "width": 100
+        },
+        {
+            "field": "experienceMonths",
+            "headerName": "Experience in months",
+            "editable": true,
+            "width": 200
+        }
+    ],
+    "subject": [
+        {
+            "field": "name",
+            "headerName": "Name of subject",
+            "editable": true,
+            "width": 200
+        }
+    ],
+    "student": [
+        {
+            "field": "firstname",
+            "headerName": "First name",
+            "editable": true,
+            "width": 100
+        },
+        {
+            "field": "lastname",
+            "headerName": "Last name",
+            "editable": true,
+            "width": 100
+        }
+    ]
+}

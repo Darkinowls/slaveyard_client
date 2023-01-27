@@ -7,6 +7,6 @@ const ErrorPage = () => {
             <h2 >Error #404. Page is not found!</h2>
         </main>
     );
-}
+} 
 
 export default ErrorPage;

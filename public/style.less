@@ -14,24 +14,24 @@ body {
 }
 
 
-#header {
+
+#header,
+#footer {
     background-color: @firstColor;
+    color: @secondColor;
     height: 50px;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 30px;
     align-items: center;
+
+    nav>a {
+        padding-left: 15px;
+    }
 }
 
-
 #footer {
-    display: flex;
-    justify-content: center;
-    background-color: @firstColor;
     height: 30px;
-    bottom: 0;
-    color: @secondColor;
-
 }
 
 a {
@@ -67,9 +67,11 @@ a {
 
 main {
     margin: auto;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
 }
 
 img {

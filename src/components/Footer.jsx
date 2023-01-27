@@ -1,11 +1,8 @@
 const Footer = () => {
     return (
         <div id="footer">
-
-            <h7>
-                Telegram: @DarkInOwls
-            </h7>
-
+            <span>Admin mode</span>
+            <span>English language</span>
         </div>
     )
 }

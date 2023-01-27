@@ -14,7 +14,13 @@ const Header = () => {
             </h3>
 
             <nav>
-                <Link to="/students">
+                <Link to="/subject">
+                    Subjects
+                </Link>
+                <Link to="/teacher">
+                    Teachers
+                </Link>
+                <Link to="/student">
                     Students
                 </Link>
             </nav>
