@@ -3,7 +3,7 @@ import axios from "../api/AxiosConfig";
 import { useState, useEffect } from "react";
 import { DataGrid } from "@mui/x-data-grid";
 import Box from '@mui/material/Box';
-import constants from '../constants/columns.json';
+import COLUMNS from '../constants/COLUMNS';
 
 
 
@@ -20,7 +20,7 @@ const TablePage = () => {
             .then(
                 json => {
                     setTable(json.data);
-                    setColumns(constants[tableName])
+                    setColumns(COLUMNS[tableName])
                 }
             ).catch(
                 error => {
@@ -62,38 +62,3 @@ const TablePage = () => {
 }
 
 export default TablePage;
-
-//  {id: 1, field: 'lastname', value: 'Parysownaa'} 
-
-
-
-
-
-
-
-{/* <Table  >
-                <TableHead >
-
-                    <TableRow >
-                        {keys.map(header => < TableCell  >{header}</TableCell >)}
-                    </TableRow>
-                </TableHead >
-
-                {
-                    table.map(
-                        row =>
-                            <TableRow>
-                                {
-                                    keys.map(
-                                        key =>
-                                            <TableCell>{row[key]}</TableCell >
-
-                                    )
-                                }
-                            </TableRow>
-
-                    )
-
-                }
-
-            </Table> */}

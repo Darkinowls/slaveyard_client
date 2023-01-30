@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Web client for slaveyard_server
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Slaveyard server repository** - https://github.com/Darkinowls/slaveyard_server
+
+**Depricated project I am inspired** - ~~https://github.com/Darkinowls/slaveyard~~
+
+## Previews
+
+### Home page
+![Home page](home_page.png)
+
+### List page filled with grade date
+![List page](list_page.png)
+
+
+# This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

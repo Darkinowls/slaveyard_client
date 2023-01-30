@@ -23,6 +23,15 @@ const Header = () => {
                 <Link to="/student">
                     Students
                 </Link>
+                <Link to="/lesson">
+                    Lessons
+                </Link>
+                <Link to="/class">
+                    Classes
+                </Link>
+                <Link to="/grade">
+                    Grades
+                </Link>
             </nav>
 
 
